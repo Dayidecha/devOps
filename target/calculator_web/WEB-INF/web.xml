@@ -1,0 +1,52 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>plus</servlet-name>
+        <servlet-class>plus</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>plus</servlet-name>
+        <url-pattern>/plus</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>minus</servlet-name>
+        <servlet-class>minus</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>minus</servlet-name>
+        <url-pattern>/minus</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>multiply</servlet-name>
+        <servlet-class>multiply</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>multiply</servlet-name>
+        <url-pattern>/multiply</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>divide</servlet-name>
+        <servlet-class>divide</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>divide</servlet-name>
+        <url-pattern>/divide</url-pattern>
+    </servlet-mapping>
+
+</web-app>
